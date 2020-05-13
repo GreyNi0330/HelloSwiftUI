@@ -42,6 +42,10 @@ struct ContentView: View {
                     }
                 }
             }.padding()
+            VStack(alignment: .leading, spacing: 10){
+                Text("Hello")
+                Text("wooo~")
+            }
             Spacer()
         }
         
