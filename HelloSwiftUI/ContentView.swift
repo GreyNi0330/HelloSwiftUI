@@ -34,6 +34,13 @@ struct ContentView: View {
                     }
                     Spacer()
                 }
+                HStack{
+                    Text("Hello My Lover!")
+                        .font(.body)
+                    Button(action: {}){
+                        Text("shit")
+                    }
+                }
             }.padding()
             Spacer()
         }
